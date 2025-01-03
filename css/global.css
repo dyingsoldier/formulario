@@ -43,10 +43,22 @@
     --heading2: 700 24px/120% var(--poppins-font);
     --heading3: 700 20px/120% var(--poppins-font);
     --heading4: 700 16px/120% var(--poppins-font);
+    --text: 400 1rem/1.5 var(--poppins-font);
+    --text-sm: 400 0.875rem/1.4 var(--poppins-font)
 
 }
 
 body{
-    font: var(--heading4);
-    color: var(--text-primary);
+    overflow: hidden;
+    font: var(--text);
+    color: var(--text-secondary);
+}
+
+h1, h2{
+        color: var(--text-primary);
+}
+
+img{
+        max-width: 100%;
+        height: auto;
 }
