@@ -35,8 +35,7 @@
                                 <input type="date" 
                                        id="birth"
                                        name="birth"
-                                       lang="pt-br"
-                                       placeholder="12 23 20">
+                                       lang="pt-br">
                             </div>
                             <div class="select-wrapper">
                                 <label for="gender">Sexo</label>
@@ -45,6 +44,8 @@
                                     <option value="male">Menino</option>
                                     <option value="na">Prefiro não responder</option>
                                 </select>
+                            </div>
+                                
                             <div class="textarea-wrapper">
                                 <label for="medical-info">Informações médicas</label>
                                 <textarea name="medical-info" id="medical-info"
@@ -71,25 +72,68 @@
                                     </p>
                                 </div>
                             </div>
+                                    <fieldset class="address">
+                                        <legend>Endereço residencial</legend>
+                                        <div class="input-wrapper">
+                                            <label for="cep">CEP</label>
+                                            <input type="text" 
+                                                    id="cep"
+                                                    name="cep">
+                                        </div>
 
-                            </div>
+                                        <div class="flex">
+                                            <div class="input-wrapper flex-2">
+                                                <label for="cep">Rua</label>
+                                                <input type="text" 
+                                                        id="street"
+                                                        name="street"
+                                                        value="Rua das flores" disabled>
+                                            </div>
+                                            
+                                            <div class="input-wrapper flex-1">
+                                                <label for="number">Número</label>
+                                                <input type="number" 
+                                                id="number"
+                                                name="number">
+                                            </div>
+                                        </div>
+                                            
+                                        <div class="flex">
+                                            <div class="input-wrapper flex-2">
+                                                <label for="city">Cidade</label>
+                                                <input type="text" 
+                                                        id="city"
+                                                        name="city"
+                                                        value="São Paulo" disabled>
+                                            </div>
+                                            
+                                            <div class="input-wrapper flex-1">
+                                                <label for="state">Estado</label>
+                                                <input type="text" 
+                                                id="state"
+                                                name="state"
+                                                value="SP" disabled>
+                                            </div>
+                                        </div>
+                                    </fieldset>
                         </fieldset>
                     </form>
+                </main>
+                
+                <aside>
+                    <div class="aside-container">
+                        <header>
+                            <img src="assets/imagem/logo.svg" alt="">
+                            <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
+                            <p>
+                                Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.
+                            </p>
+                        </header>
+                        <img src="assets/imagem/prof.svg" alt="">
+                    </div>
+                </aside>
             </div>
-        </main>
-
-        <aside>
-            <div class="aside-container">
-                <header>
-                <img src="assets/imagem/logo.svg" alt="">
-                <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
-                <p>
-                    Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.
-                </p>
-                </header>
-                    <img src="assets/imagem/prof.svg" alt="">
-            </div>
-        </aside>
-    </div>
+        </div>
+            
 </body>
 </html>
