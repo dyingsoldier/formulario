@@ -118,6 +118,64 @@
                                     </fieldset>
                         </fieldset>
                     </form>
+                                        <fieldset class="guardiao">
+                                            <legend>Informações do responsável</legend>
+                                            <div class="input-wrapper">
+                                                <label for="guardiao">Nome do responsável</label>
+                                                <input type="text"
+                                                        id="guardiao"
+                                                        name="guardiao">
+                                                <small>Principal responsável legal e contato de emergência</small>
+                                            </div>
+
+                                            <div class="input-wrapper">
+                                                <label for="Fone">Telefone</label>
+                                                <input type="number"
+                                                        id="number"
+                                                        name="number"
+                                                        placeholder="(10) 9 8765-4321">
+                                            </div>
+
+                                            <div class="input-wrapper">
+                                                <label for="email">E-mail</label>
+                                                <input type="email"
+                                                            id="email"
+                                                            name="email"
+                                                            required>
+                                                            <div class="error">
+                                                                <img src="assets/icons/alert-circle.svg" alt="">
+                                                                <span>Insira um e-mail válido</span>
+                                                            </div>
+                                            </div>
+                                        </fieldset>
+
+                                        <fieldset class="enroll-options">
+                                          <legend>Opções de matricula</legend>
+                                          <div class="input-wrapper">
+                                            <label>Selecione o turno de estudo</label>
+                                            <div class="radio-wrapper">
+                                                <div class="radio-inner">
+                                                    <div class="radio-image"></div>
+                                                    <input type="radio"
+                                                            name="study-shift"
+                                                            id="morning"
+                                                            value="morning">
+                                                            <img src="assets/icons/sun-cloud-02.svg" alt="">
+                                                            <label for="morning">Manhã</label>
+                                                </div>
+
+                                                <div class="radio-inner">
+                                                    <div class="radio-image"></div>
+                                                    <input type="radio"
+                                                            name="study-shift"
+                                                            id="evening"
+                                                            value="evening">
+                                                            <img src="assets/icons/sun-02.svg" alt="">
+                                                            <label for="evening">Tarde</label>
+                                                </div>
+                                            </div>
+                                          </div>  
+                                        </fieldset>
                 </main>
                 
                 <aside>
